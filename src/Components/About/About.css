@@ -1,0 +1,171 @@
+.m-About {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px 60px 40px;
+}
+
+.a-info {
+    text-align: center;
+    border: 2px solid #f56539;
+    width: 47%;
+    padding: 20px 20px;
+    border-radius: 50px;
+}
+
+.a-info:hover {
+    border: 2px solid #eaeaea;
+}
+
+.a-info h1 {
+    font-family: 'Cinzel', serif;
+    color: #f56539;
+    font-size: 3rem;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.a-info p {
+    color: #eaeaea;
+    font-size: 2rem;
+    padding: 5px 30px 10px 40px;
+}
+
+.a-btn {
+    border: 2px solid #f56539;
+    border-radius: 50px;
+    color: #f56539;
+    background-color: rgb(33, 33, 33);
+    ;
+    height: 2.5rem;
+    width: 8rem;
+}
+
+.a-btn:hover {
+    border: 2px solid #eaeaea;
+    color: rgb(33, 33, 33);
+    ;
+    background-color: #eaeaea;
+}
+
+.a-acad {
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-solid {
+    color: #f56539;
+    padding: 10px;
+    height: fit-content;
+}
+
+.fa-solid>span {
+    padding: 10px;
+    font-size: 20px;
+    color: #eaeaea;
+    letter-spacing: 3px;
+}
+
+.a-acad>div:hover {
+    background-color: #f5653980;
+}
+
+.a-acad>:nth-child(1) {
+    font-family: 'Cinzel', serif;
+    color: #f56539;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.h-scl {
+    background-color: #f565394d;
+    border-radius: 60px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.i-scl {
+    background-color: #f565394d;
+    border-radius: 60px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.b-tech {
+    background-color: #f565394d;
+    border-radius: 60px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.h-scl,
+.i-scl,
+.b-tech {
+    font-size: 12px;
+    color: #eaeaea;
+}
+
+.i-scl>h1 {
+    margin: 10px;
+}
+
+.h-scl>h1 {
+    margin: 10px;
+}
+
+.b-tech>h1 {
+    margin: 10px;
+}
+
+.b-btn {
+    padding-top: 30px;
+}
+
+@media screen and (max-width:769px) {
+    .m-About {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 10px 10px 10px;
+    }
+
+    .a-info {
+        width: 90%;
+        padding: 5px 5px;
+        margin-bottom: 40px;
+    }
+
+    .a-info h1 {
+        font-size: 2rem;
+    }
+
+    .a-info p {
+        font-size: 1.2rem;
+        padding: 10px 5px 10px 10px;
+    }
+
+    .a-acad {
+        width: 90%;
+    }
+
+    .a-acad>:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .h-scl,
+    .i-scl,
+    .b-tech {
+        font-size: 10px;
+    }
+
+    .b-btn {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .fa-solid>span {
+        font-size: 14px;
+    }
+}
