@@ -36,7 +36,7 @@ function Project() {
                     <img src={Personal} alt="reload" className="p-img" />
                     <div className="p-icon">
                         <a href="/"><i className="fa-regular fa-circle-play fa-2x"></i></a>
-                        <a href="/" target="_blank" rel='noreferrer noopner' ><i className="fa-solid fa-code fa-2x"></i></a>
+                        <a href="https://github.com/Rajat7001/Personal-Portfolio" target="_blank" rel='noreferrer noopner' ><i className="fa-solid fa-code fa-2x"></i></a>
                     </div>
                 </div>
                 <div className="p-one" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
